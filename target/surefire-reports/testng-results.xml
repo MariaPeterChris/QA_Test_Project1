@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="13" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-13T13:06:45 GMT-05:00" name="Surefire suite" finished-at="2023-01-13T13:09:29 GMT-05:00" duration-ms="163963">
+    <groups>
+    </groups>
+    <test started-at="2023-01-13T13:06:45 GMT-05:00" name="Surefire test" finished-at="2023-01-13T13:09:29 GMT-05:00" duration-ms="163963">
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3c9d0b9d]" started-at="2023-01-13T13:07:47 GMT-05:00" name="SetUp" finished-at="2023-01-13T13:07:56 GMT-05:00" duration-ms="8653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="homePageTitleTest()[pri:1, instance:com.crm.qa.testcases.HomePageTest@3c9d0b9d]" started-at="2023-01-13T13:07:56 GMT-05:00" name="homePageTitleTest" finished-at="2023-01-13T13:07:56 GMT-05:00" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3c9d0b9d]" started-at="2023-01-13T13:07:56 GMT-05:00" name="Close" finished-at="2023-01-13T13:07:56 GMT-05:00" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3c9d0b9d]" started-at="2023-01-13T13:07:56 GMT-05:00" name="SetUp" finished-at="2023-01-13T13:08:04 GMT-05:00" duration-ms="7530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="verifyUserNameLabel()[pri:2, instance:com.crm.qa.testcases.HomePageTest@3c9d0b9d]" started-at="2023-01-13T13:08:04 GMT-05:00" name="verifyUserNameLabel" finished-at="2023-01-13T13:08:04 GMT-05:00" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserNameLabel -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3c9d0b9d]" started-at="2023-01-13T13:08:04 GMT-05:00" name="Close" finished-at="2023-01-13T13:08:04 GMT-05:00" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3c9d0b9d]" started-at="2023-01-13T13:08:04 GMT-05:00" name="SetUp" finished-at="2023-01-13T13:08:14 GMT-05:00" duration-ms="10032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="verifyContactsLinkTest()[pri:3, instance:com.crm.qa.testcases.HomePageTest@3c9d0b9d]" started-at="2023-01-13T13:08:14 GMT-05:00" name="verifyContactsLinkTest" finished-at="2023-01-13T13:08:17 GMT-05:00" duration-ms="2870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsLinkTest -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3c9d0b9d]" started-at="2023-01-13T13:08:17 GMT-05:00" name="Close" finished-at="2023-01-13T13:08:17 GMT-05:00" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.ContactsPageTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@75f32542]" started-at="2023-01-13T13:06:45 GMT-05:00" name="SetUp" finished-at="2023-01-13T13:06:56 GMT-05:00" duration-ms="10947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="verifyContactsPage()[pri:1, instance:com.crm.qa.testcases.ContactsPageTest@75f32542]" started-at="2023-01-13T13:06:56 GMT-05:00" name="verifyContactsPage" finished-at="2023-01-13T13:07:00 GMT-05:00" duration-ms="3252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsPage -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@75f32542]" started-at="2023-01-13T13:07:00 GMT-05:00" name="Close" finished-at="2023-01-13T13:07:00 GMT-05:00" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@75f32542]" started-at="2023-01-13T13:07:01 GMT-05:00" name="SetUp" finished-at="2023-01-13T13:07:09 GMT-05:00" duration-ms="7859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="createNewContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.crm.qa.testcases.ContactsPageTest@75f32542]" started-at="2023-01-13T13:07:09 GMT-05:00" name="createNewContact" data-provider="getCRMTestData" finished-at="2023-01-13T13:07:16 GMT-05:00" duration-ms="7018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[James]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContact -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@75f32542]" started-at="2023-01-13T13:07:16 GMT-05:00" name="Close" finished-at="2023-01-13T13:07:17 GMT-05:00" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@75f32542]" started-at="2023-01-13T13:07:17 GMT-05:00" name="SetUp" finished-at="2023-01-13T13:07:24 GMT-05:00" duration-ms="7625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="createNewContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.crm.qa.testcases.ContactsPageTest@75f32542]" started-at="2023-01-13T13:07:24 GMT-05:00" name="createNewContact" data-provider="getCRMTestData" finished-at="2023-01-13T13:07:30 GMT-05:00" duration-ms="5868" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mrs.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rani]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContact -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@75f32542]" started-at="2023-01-13T13:07:30 GMT-05:00" name="Close" finished-at="2023-01-13T13:07:30 GMT-05:00" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@75f32542]" started-at="2023-01-13T13:07:30 GMT-05:00" name="SetUp" finished-at="2023-01-13T13:07:41 GMT-05:00" duration-ms="10367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="createNewContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.crm.qa.testcases.ContactsPageTest@75f32542]" started-at="2023-01-13T13:07:41 GMT-05:00" name="createNewContact" data-provider="getCRMTestData" finished-at="2023-01-13T13:07:47 GMT-05:00" duration-ms="6068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Richard]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[George]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ebay]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContact -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@75f32542]" started-at="2023-01-13T13:07:47 GMT-05:00" name="Close" finished-at="2023-01-13T13:07:47 GMT-05:00" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+      <class name="com.crm.qa.testcases.TasksPageTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.TasksPageTest@2f112965]" started-at="2023-01-13T13:08:34 GMT-05:00" name="SetUp" finished-at="2023-01-13T13:08:43 GMT-05:00" duration-ms="8296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="verifyTasksPage()[pri:1, instance:com.crm.qa.testcases.TasksPageTest@2f112965]" started-at="2023-01-13T13:08:43 GMT-05:00" name="verifyTasksPage" finished-at="2023-01-13T13:08:45 GMT-05:00" duration-ms="2648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTasksPage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.crm.qa.testcases.TasksPageTest@2f112965]" started-at="2023-01-13T13:08:45 GMT-05:00" name="close" finished-at="2023-01-13T13:08:45 GMT-05:00" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.TasksPageTest@2f112965]" started-at="2023-01-13T13:08:45 GMT-05:00" name="SetUp" finished-at="2023-01-13T13:08:54 GMT-05:00" duration-ms="8322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="createNewTask(java.lang.String,java.lang.String)[pri:2, instance:com.crm.qa.testcases.TasksPageTest@2f112965]" started-at="2023-01-13T13:08:54 GMT-05:00" name="createNewTask" data-provider="getCRMTasksTestData" finished-at="2023-01-13T13:08:59 GMT-05:00" duration-ms="5665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jan Tasks]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[January Tasks to be performed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewTask -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.crm.qa.testcases.TasksPageTest@2f112965]" started-at="2023-01-13T13:08:59 GMT-05:00" name="close" finished-at="2023-01-13T13:09:00 GMT-05:00" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.TasksPageTest@2f112965]" started-at="2023-01-13T13:09:00 GMT-05:00" name="SetUp" finished-at="2023-01-13T13:09:09 GMT-05:00" duration-ms="9298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="createNewTask(java.lang.String,java.lang.String)[pri:2, instance:com.crm.qa.testcases.TasksPageTest@2f112965]" started-at="2023-01-13T13:09:09 GMT-05:00" name="createNewTask" data-provider="getCRMTasksTestData" finished-at="2023-01-13T13:09:15 GMT-05:00" duration-ms="5518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Feb Tasks]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[February Tasks to be performed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewTask -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.crm.qa.testcases.TasksPageTest@2f112965]" started-at="2023-01-13T13:09:15 GMT-05:00" name="close" finished-at="2023-01-13T13:09:15 GMT-05:00" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.TasksPageTest@2f112965]" started-at="2023-01-13T13:09:15 GMT-05:00" name="SetUp" finished-at="2023-01-13T13:09:24 GMT-05:00" duration-ms="8817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="createNewTask(java.lang.String,java.lang.String)[pri:2, instance:com.crm.qa.testcases.TasksPageTest@2f112965]" started-at="2023-01-13T13:09:24 GMT-05:00" name="createNewTask" data-provider="getCRMTasksTestData" finished-at="2023-01-13T13:09:29 GMT-05:00" duration-ms="5411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[March Tasks]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[March Tasks to be performed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewTask -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.crm.qa.testcases.TasksPageTest@2f112965]" started-at="2023-01-13T13:09:29 GMT-05:00" name="close" finished-at="2023-01-13T13:09:29 GMT-05:00" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.crm.qa.testcases.TasksPageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@43301423]" started-at="2023-01-13T13:08:17 GMT-05:00" name="SetUp" finished-at="2023-01-13T13:08:20 GMT-05:00" duration-ms="3011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@43301423]" started-at="2023-01-13T13:08:20 GMT-05:00" name="loginPageTitleTest" finished-at="2023-01-13T13:08:20 GMT-05:00" duration-ms="47" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [CRMPRO - CRM software for customer relationship management, sales, and support.] but found [Free CRM - CRM software for customer relationship management, sales, and support.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [CRMPRO - CRM software for customer relationship management, sales, and support.] but found [Free CRM - CRM software for customer relationship management, sales, and support.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.crm.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@43301423]" started-at="2023-01-13T13:08:20 GMT-05:00" name="Close" finished-at="2023-01-13T13:08:20 GMT-05:00" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@43301423]" started-at="2023-01-13T13:08:20 GMT-05:00" name="SetUp" finished-at="2023-01-13T13:08:23 GMT-05:00" duration-ms="3027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="validateCRMLogoTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@43301423]" started-at="2023-01-13T13:08:23 GMT-05:00" name="validateCRMLogoTest" finished-at="2023-01-13T13:08:23 GMT-05:00" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCRMLogoTest -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@43301423]" started-at="2023-01-13T13:08:23 GMT-05:00" name="Close" finished-at="2023-01-13T13:08:24 GMT-05:00" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@43301423]" started-at="2023-01-13T13:08:24 GMT-05:00" name="SetUp" finished-at="2023-01-13T13:08:26 GMT-05:00" duration-ms="2905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="loginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@43301423]" started-at="2023-01-13T13:08:26 GMT-05:00" name="loginTest" finished-at="2023-01-13T13:08:34 GMT-05:00" duration-ms="7565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@43301423]" started-at="2023-01-13T13:08:34 GMT-05:00" name="Close" finished-at="2023-01-13T13:08:34 GMT-05:00" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
