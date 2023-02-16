@@ -19,7 +19,7 @@ public class TasksPageTest extends TestBase{
 	TestUtil testUtil;
 	TasksPage tasksPage;
 	
-	String sheetName="Tasks";
+	String taskSheet="Tasks";
 	
 	public TasksPageTest() {
 		super();
@@ -46,12 +46,12 @@ public class TasksPageTest extends TestBase{
 	//data provider for getting data from excel and assigning it to each test cases
 	@DataProvider
 	public Object[][] getCRMTasksTestData(){
-		Object [][] data = TestUtil.getTestData(sheetName);
+		Object [][] data = TestUtil.getTestData(taskSheet);
 		return data;
 	}
 	
 	@Test(priority=2, dataProvider="getCRMTasksTestData")
-	public void createNewTask(String title, String description) {
+	public void createNewTask(String title, String description, String searchText) {
 		testUtil.switchToFrameMain();
 		homePage.clickOnCreateNewTask();
 		tasksPage.createNewTask(title, description);
@@ -59,11 +59,44 @@ public class TasksPageTest extends TestBase{
 		Assert.assertTrue(afterSaveLabel);
 	}
 	
+	@Test(priority=3, dataProvider="getCRMTasksTestData")
+	public void searchUsingFullSearchForm(String title, String description,String searchText) {
+		testUtil.switchToFrameMain();
+		homePage.clickFullSearchForm();
+		boolean searchPageLabel=tasksPage.verifyFullSearchForm();
+		Assert.assertTrue(searchPageLabel);
+		
+		tasksPage.searchTask(searchText);
+		tasksPage.searchButtonClick();
+	}
+	
+	@Test(priority=4,dataProvider="getCRMTasksTestData")
+	public void deleteLastTaskafterSearch(String title, String description,String searchText) {
+		testUtil.switchToFrameMain();
+		homePage.clickFullSearchForm();
+		boolean searchPageLabel=tasksPage.verifyFullSearchForm();
+		Assert.assertTrue(searchPageLabel);		
+		tasksPage.searchTask(searchText);
+		tasksPage.searchButtonClick();
+		
+		testUtil.scrollPage();
+		tasksPage.taskCount();
+		System.out.println("Count "+tasksPage.taskCount());
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		tasksPage.clickDeleteOnLastTask();
+		tasksPage.alertSwitchAccept();
+	}
+	
 	
 	
 	@AfterMethod
 	public void close() {
 		driver.quit();
-	} 
+	}  
 
 }

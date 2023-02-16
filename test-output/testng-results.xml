@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="3" total="6" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-12T13:07:17 GMT-05:00" name="Default suite" finished-at="2023-01-12T13:08:19 GMT-05:00" duration-ms="62341">
+  <suite started-at="2023-02-15T20:38:13 GMT-05:00" name="Default suite" finished-at="2023-02-15T20:39:08 GMT-05:00" duration-ms="55519">
     <groups>
     </groups>
-    <test started-at="2023-01-12T13:07:17 GMT-05:00" name="Default test" finished-at="2023-01-12T13:08:19 GMT-05:00" duration-ms="62341">
+    <test started-at="2023-02-15T20:38:13 GMT-05:00" name="Default test" finished-at="2023-02-15T20:39:08 GMT-05:00" duration-ms="55519">
       <class name="com.crm.qa.testcases.TasksPageTest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.TasksPageTest@42a48628]" started-at="2023-01-12T13:07:17 GMT-05:00" name="SetUp" finished-at="2023-01-12T13:07:26 GMT-05:00" duration-ms="9549" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.TasksPageTest@3349e9bb]" started-at="2023-02-15T20:38:14 GMT-05:00" name="SetUp" finished-at="2023-02-15T20:38:25 GMT-05:00" duration-ms="10793" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="verifyTasksPage()[pri:1, instance:com.crm.qa.testcases.TasksPageTest@42a48628]" started-at="2023-01-12T13:07:26 GMT-05:00" name="verifyTasksPage" finished-at="2023-01-12T13:07:29 GMT-05:00" duration-ms="2907" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTasksPage -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.TasksPageTest@42a48628]" started-at="2023-01-12T13:07:31 GMT-05:00" name="SetUp" finished-at="2023-01-12T13:07:39 GMT-05:00" duration-ms="8317" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method signature="createNewTask(java.lang.String,java.lang.String)[pri:2, instance:com.crm.qa.testcases.TasksPageTest@42a48628]" started-at="2023-01-12T13:07:39 GMT-05:00" name="createNewTask" data-provider="getCRMTasksTestData" finished-at="2023-01-12T13:07:46 GMT-05:00" duration-ms="7333" status="PASS">
+        <test-method signature="deleteLastTaskafterSearch(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.crm.qa.testcases.TasksPageTest@3349e9bb]" started-at="2023-02-15T20:38:25 GMT-05:00" name="deleteLastTaskafterSearch" data-provider="getCRMTasksTestData" finished-at="2023-02-15T20:38:31 GMT-05:00" duration-ms="6018" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,15 +23,20 @@
                 <![CDATA[January Tasks to be performed]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jan Tasks]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createNewTask -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.TasksPageTest@42a48628]" started-at="2023-01-12T13:07:46 GMT-05:00" name="SetUp" finished-at="2023-01-12T13:07:59 GMT-05:00" duration-ms="13290" status="PASS">
+        </test-method> <!-- deleteLastTaskafterSearch -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.TasksPageTest@3349e9bb]" started-at="2023-02-15T20:38:31 GMT-05:00" name="SetUp" finished-at="2023-02-15T20:38:43 GMT-05:00" duration-ms="11810" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="createNewTask(java.lang.String,java.lang.String)[pri:2, instance:com.crm.qa.testcases.TasksPageTest@42a48628]" started-at="2023-01-12T13:07:59 GMT-05:00" name="createNewTask" data-provider="getCRMTasksTestData" finished-at="2023-01-12T13:08:05 GMT-05:00" duration-ms="5558" status="PASS">
+        <test-method signature="deleteLastTaskafterSearch(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.crm.qa.testcases.TasksPageTest@3349e9bb]" started-at="2023-02-15T20:38:43 GMT-05:00" name="deleteLastTaskafterSearch" data-provider="getCRMTasksTestData" finished-at="2023-02-15T20:38:49 GMT-05:00" duration-ms="6109" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,15 +48,20 @@
                 <![CDATA[February Tasks to be performed]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[Feb Tasks]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createNewTask -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.TasksPageTest@42a48628]" started-at="2023-01-12T13:08:05 GMT-05:00" name="SetUp" finished-at="2023-01-12T13:08:13 GMT-05:00" duration-ms="8339" status="PASS">
+        </test-method> <!-- deleteLastTaskafterSearch -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.TasksPageTest@3349e9bb]" started-at="2023-02-15T20:38:49 GMT-05:00" name="SetUp" finished-at="2023-02-15T20:39:02 GMT-05:00" duration-ms="13738" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="createNewTask(java.lang.String,java.lang.String)[pri:2, instance:com.crm.qa.testcases.TasksPageTest@42a48628]" started-at="2023-01-12T13:08:13 GMT-05:00" name="createNewTask" data-provider="getCRMTasksTestData" finished-at="2023-01-12T13:08:19 GMT-05:00" duration-ms="5614" status="PASS">
+        <test-method signature="deleteLastTaskafterSearch(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.crm.qa.testcases.TasksPageTest@3349e9bb]" started-at="2023-02-15T20:39:02 GMT-05:00" name="deleteLastTaskafterSearch" data-provider="getCRMTasksTestData" finished-at="2023-02-15T20:39:08 GMT-05:00" duration-ms="5851" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -71,10 +73,15 @@
                 <![CDATA[March Tasks to be performed]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[March Tasks]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createNewTask -->
+        </test-method> <!-- deleteLastTaskafterSearch -->
       </class> <!-- com.crm.qa.testcases.TasksPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

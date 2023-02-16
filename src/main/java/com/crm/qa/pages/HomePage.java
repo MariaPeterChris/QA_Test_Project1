@@ -1,5 +1,9 @@
 package com.crm.qa.pages;
 
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -27,6 +31,9 @@ public class HomePage extends TestBase {
 	
 	@FindBy(xpath="//li/a[@title='New Task']")
 	WebElement newTaskLink;
+	
+	@FindBy(linkText="Full Search Form")
+	WebElement FullSearchForm;
 	
 	//Initialize page Elements using initElements
 	public HomePage() {
@@ -69,6 +76,15 @@ public class HomePage extends TestBase {
 		actions.moveToElement(tasksLink).build().perform();
 		actions.moveToElement(newTaskLink).build().perform();
 		newTaskLink.click();
+	}
+	
+	public void clickFullSearchForm() {
+		
+		Actions actions= new Actions(driver);
+		actions.moveToElement(tasksLink).build().perform();
+		actions.moveToElement(FullSearchForm).build().perform();
+		FullSearchForm.click(); 
+		
 	}
 
 }

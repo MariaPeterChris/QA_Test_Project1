@@ -10,6 +10,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
@@ -20,6 +21,7 @@ public class TestUtil extends TestBase {
 	
 	public static long PAGE_LOAD_TIMEOUT=20;
 	public static long IMPLICIT_WAIT=10;
+	
 	
 	public static String TESTDATA_SHEET_PATH="D:\\EclipseProjects\\FreeCrmTest\\src\\main\\java"
 			+ "\\com\\crm\\qa\\testdata\\FreeCrmTestData.xlsx";
@@ -59,12 +61,16 @@ public class TestUtil extends TestBase {
 	}
 	
 	public static void takeScreenshotAtEndOfTest() throws IOException{
-		File scrnFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		String scrnFile_path = System.getProperty("D:\\EclipseProjects\\FreeCrmTest");	
-		FileUtils.copyFile(scrnFile,new File(scrnFile_path + "/screenshots/" +  System.currentTimeMillis() + ".png"));
+		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		String destFile_path = System.getProperty("D:\\EclipseProjects\\FreeCrmTest");	
+		FileUtils.copyFile(scrFile,new File(destFile_path + "/screenshots/" +  System.currentTimeMillis() + ".png"));
 		
 	}
 	
+	public void scrollPage() {
+		JavascriptExecutor js = (JavascriptExecutor)driver;  
+		js.executeScript("scrollBy(0, 4500)");
+	}
 	
 		
 }

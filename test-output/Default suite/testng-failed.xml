@@ -5,8 +5,8 @@
     <classes>
       <class name="com.crm.qa.testcases.TasksPageTest">
         <methods>
-          <include name="createNewTask" invocation-numbers="0 1 2"/>
           <include name="SetUp"/>
+          <include name="deleteLastTaskafterSearch" invocation-numbers="0 1 2"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.TasksPageTest -->
     </classes>
