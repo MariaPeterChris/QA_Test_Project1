@@ -91,5 +91,9 @@ public class TasksPage extends TestBase {
 	public void clickDeleteOnLastTask() { 
 		rowDeleteIcon.click();				
 	}
+	
+	public void clickPagination() {
+		
+	}
 
 }
